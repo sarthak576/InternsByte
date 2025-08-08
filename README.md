@@ -75,3 +75,15 @@
 4. **FastAPI Integration ⚡** – `UploadFile = File(...)` ensures proper `multipart/form-data` handling.
 5. **Future-Proofing 🚀** – v1+ syntax prevents deprecation issues and keeps code up-to-date.
 
+
+## ⚡ 5. Quick Reference Table  
+
+![Badge](https://img.shields.io/badge/Reference-Quick_Access-orange)  
+
+| Section | Topic | Key Command / Code | Notes |
+|---------|-------|-------------------|-------|
+| 1 | OpenAI API Key Usage | `export OPEN_AI_API_KEY="your_api_key"` | Set in terminal before running app |
+| 2 | Whisper AI – Speech to Text | `openai.Audio.transcribe("whisper-1", audio_file)` | Works with `.mp3`, `.wav`, `.m4a`, etc. |
+| 3 | Install `multipart` | `pip install python-multipart` | Needed for file uploads in FastAPI |
+| 4 | Latest OpenAI Version | `OpenAI(api_key=...)` & `client.audio.transcriptions.create(...)` | Updated v1+ SDK syntax |
+
